@@ -20,21 +20,32 @@
 
 // MODULES //
 
-var setReadOnly = require( '@stdlib/utils-define-nonenumerable-read-only-property' );
-var setProps = require( '@stdlib/strided-base-meta-data-props' );
-var meta = require( './meta.json' );
-var types = require( './types.json' );
-var ramp = require( './ramp.js' );
-var ndarray = require( './ndarray.js' );
+var resolve = require( 'path' ).resolve;
+var writeFile = require( '@stdlib/fs-write-file' ).sync;
+var types = require( './../lib/types.js' );
+
+
+// VARIABLES //
+
+var OPTS = {
+	'encoding': 'utf8'
+};
+var FPATH = resolve( __dirname, '..', 'lib', 'types.json' );
 
 
 // MAIN //
 
-setReadOnly( ramp, 'ndarray', ndarray );
-setProps( meta, types, ramp, false );
-setProps( meta, types, ramp.ndarray, true );
+/**
+* Main execution sequence.
+*
+* @private
+* @throws {Error} unexpected error
+*/
+function main() {
+	var err = writeFile( FPATH, JSON.stringify( types )+'\n', OPTS );
+	if ( err ) {
+		throw err;
+	}
+}
 
-
-// EXPORTS //
-
-module.exports = ramp;
+main();
