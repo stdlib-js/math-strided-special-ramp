@@ -1,0 +1,38 @@
+{
+  "name": "@stdlib/math-strided-special-ramp",
+  "version": "0.0.0",
+  "description": "Evaluate the ramp function for each element in a strided array.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-strided-special-ramp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "ramp",
+    "heaviside",
+    "max",
+    "maximum",
+    "nonnegative",
+    "digital signal processing",
+    "dsp",
+    "vector",
+    "array",
+    "strided",
+    "ndarray",
+    "element-wise"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
