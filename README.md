@@ -78,6 +78,11 @@ R(x) = \mathop{\mathrm{max}}( x, 0 )
 ## Usage
 
 ```javascript
+import ramp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-ramp@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-strided-special-ramp/tags). For example,
+
+```javascript
 import ramp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-ramp@v0.1.0-esm/index.mjs';
 ```
 
@@ -191,7 +196,7 @@ var uniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-unifor
 import filledarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@esm/index.mjs';
-import ramp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-ramp@v0.1.0-esm/index.mjs';
+import ramp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-ramp@esm/index.mjs';
 
 var dt;
 var x;
