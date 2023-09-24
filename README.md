@@ -78,7 +78,7 @@ R(x) = \mathop{\mathrm{max}}( x, 0 )
 ## Usage
 
 ```javascript
-import ramp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-ramp@esm/index.mjs';
+import ramp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-ramp@v0.1.0-esm/index.mjs';
 ```
 
 #### ramp( N, dtypeX, x, strideX, dtypeY, y, strideY )
@@ -191,7 +191,7 @@ var uniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-unifor
 import filledarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@esm/index.mjs';
-import ramp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-ramp@esm/index.mjs';
+import ramp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-ramp@v0.1.0-esm/index.mjs';
 
 var dt;
 var x;
