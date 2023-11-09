@@ -231,6 +231,13 @@ for ( i = 0; i < dt.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math-strided/special/dramp`][@stdlib/math/strided/special/dramp]</span><span class="delimiter">: </span><span class="description">evaluate the ramp function for each element in a double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/math-strided/special/sramp`][@stdlib/math/strided/special/sramp]</span><span class="delimiter">: </span><span class="description">evaluate the ramp function for each element in a single-precision floating-point strided array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -309,6 +316,14 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/base/special/ramp]: https://github.com/stdlib-js/math-base-special-ramp
 
 [@stdlib/strided/dtypes]: https://github.com/stdlib-js/strided-dtypes
+
+<!-- <related-links> -->
+
+[@stdlib/math/strided/special/dramp]: https://github.com/stdlib-js/math-strided-special-dramp
+
+[@stdlib/math/strided/special/sramp]: https://github.com/stdlib-js/math-strided-special-sramp
+
+<!-- </related-links> -->
 
 </section>
 
