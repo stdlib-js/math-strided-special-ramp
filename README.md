@@ -80,7 +80,7 @@ R(x) = \mathop{\mathrm{max}}( x, 0 )
 To use in Observable,
 
 ```javascript
-ramp = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-ramp@umd/browser.js' )
+ramp = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-ramp@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -92,7 +92,7 @@ var ramp = require( 'path/to/vendor/umd/math-strided-special-ramp/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-ramp@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-ramp@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
